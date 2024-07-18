@@ -1,0 +1,41 @@
+table,tr,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+    border: 45px;
+}
+body{
+    background-image: url(./img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    font-family: "Iceberg", sans-serif;
+    font-size: 250%;
+    color: black;
+    
+}
+img{
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    border-radius: 10%;
+    border: 0.5px solid white;
+    box-shadow: 10px 10px 10px   black ;
+    opacity: 75%;
+}
+
+
+div{
+    display: flex;
+    padding-right: 20px;
+    justify-content: space-evenly;
+    margin:auto;
+}
+#main:hover #a{
+    height: 170px;
+    width: 170px;
+    border-radius: 12%;
+}
